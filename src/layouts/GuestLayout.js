@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function GuestLayout() {
+export default function GuestLayout({ children }) {
   return (
-    <div>GuestLayout</div>
-  )
+    <div style={{ backgroundColor: "red", height: "100vh", width: "100%" }}>
+      {children}
+    </div>
+  );
 }
