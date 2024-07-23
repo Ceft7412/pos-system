@@ -13,7 +13,7 @@ export default function Home() {
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener nore  ferrer"
           >
             By{" "}
             <Image
@@ -85,9 +85,7 @@ export default function Home() {
           <h2>
             Deploy <span>-&gt;</span>
           </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+          <p>Instantly deploy your Next.js site to a shareable URL with Vercel.</p>
         </a>
       </div>
     </main>
